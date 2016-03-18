@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 
 long long gcd(long long a, long long b) {
   if(a < b) {
@@ -13,8 +14,8 @@ long long gcd(long long a, long long b) {
 }
 
 int main() {
-  long long a, b;
-  std::cin >> a >> b;
-  std::cout << a * b / gcd(a, b) << std::endl;
-  return 0;
+    long long a, b;
+    std::cin>> a >> b;
+    std::cout <<a * b/ gcd(a, b)<< std::endl;
+    return 0;
 }
